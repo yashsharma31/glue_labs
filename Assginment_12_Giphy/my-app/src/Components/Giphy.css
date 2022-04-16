@@ -1,0 +1,51 @@
+.App {
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.inputfield {
+    font-size: 24px;
+    vertical-align: middle;
+    transition: .5s;
+    border-width: 2px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+}
+h3{
+    font-size: 40px;
+}
+
+.submitbtn {
+    background-color: rgb(10, 201, 13);
+    color: #fff;
+    padding: 6px 30px;
+    vertical-align: middle;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: rgb(0, 255, 247);
+}
+
+.container_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gif {
+    flex-basis: 30%;
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 100px;
+}
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.Final {
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 400px;
+}
+
+.img-container {
+    border-radius: 50%;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.img-container img {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+}
